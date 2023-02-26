@@ -2,7 +2,7 @@ package notas;
 
 import java.util.Scanner;
 
-public class Calificaciones {
+public class califica {
 
 public static void main(String[] args) {
 
