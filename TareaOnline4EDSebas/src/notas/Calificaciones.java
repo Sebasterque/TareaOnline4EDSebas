@@ -8,20 +8,20 @@ public static void main(String[] args) {
 
 final Scanner Entrada = new Scanner(System.in); 
 System.out.println("Introduzca el valor de una calificación: "); 
-int n = Entrada.nextInt(); 
+int num_nota = Entrada.nextInt(); 
 Entrada.close();
-cali(n); 
+califica(num_nota); 
 }
 
-public static void cali(int n) {
+public static void califica(int num_nota) {
 	String c;
-	if (n >= 0 && n< 5) {	c  = "Suspenso";}
+	if (num_nota >= 0 && num_nota< 5) {	c  = "Suspenso";}
 
-	else if (n >= 5 && n< 7){	c  = "Aprobado";}
+	else if (num_nota >= 5 && num_nota< 7){	c  = "Aprobado";}
 
-	else if (n >= 7 && n <9){	c  = "Notable";}
+	else if (num_nota >= 7 && num_nota <9){	c  = "Notable";}
 
-	else if (n >= 9 && n<= 10){	c  = "Sobresaliente";}
+	else if (num_nota >= 9 && num_nota<= 10){	c  = "Sobresaliente";}
 
 	else {c  = "El valor de la calificación introducida no es correcta";}
 
